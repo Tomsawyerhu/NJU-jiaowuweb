@@ -9,4 +9,7 @@ class StatusCode(Enum):
     CANNOT_SAVE_AS_EXCEL = (4, "无法转化为excel格式存储")
 
     def get_msg(self):
-        return self[1]
+        return self.value[1]
+
+    def get_code(self):
+        return self.value[0]

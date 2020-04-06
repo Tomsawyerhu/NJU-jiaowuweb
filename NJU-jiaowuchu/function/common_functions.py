@@ -30,13 +30,13 @@ class Course:
 class LoginSpider:
     def __init__(self, cookies):
         self.cookies = cookies
-        self.session = None
+        self.task = None
 
-    def start_session(self):
-        config_file = open("./session_config.json", 'r')
+    def start_task(self):
+        config_file = open("./config/task_config.json", 'r')
         config_json = json.load(config_file)
-        self.session = requests.session()
-        self.session.headers = {
+        self.task = requests.session()
+        self.task.headers = {
             "Accept": config_json["Accept"],
             "Accept-Language": config_json["Accept-Language"],
             "Upgrade-Insecure-Requests": config_json["Upgrade-Insecure-Requests"],
@@ -46,10 +46,10 @@ class LoginSpider:
             # "Cookie": self.cookies,
             "Connection": config_json["Connection"]
         }
-        self.session.cookies = cookiejar_from_dict(self.cookies)
+        self.task.cookies = cookiejar_from_dict(self.cookies)
 
-    def terminate_session(self):
-        self.session.close()
+    def terminate_task(self):
+        self.task.close()
 
     def update_header(self, key, value):
         """
@@ -58,7 +58,7 @@ class LoginSpider:
         :param value:header属性值
         :return:null
         """
-        self.session.headers["key"] = value
+        self.task.headers["key"] = value
 
     def crawl_news(self, start=0, end=100):
         # 爬取首页通知
@@ -68,7 +68,7 @@ class LoginSpider:
         # 查看成绩
         course_list = []
         self.update_header("Referer", "http://elite.nju.edu.cn/jiaowu/student/studentinfo/index.do")
-        response = self.session.get(
+        response = self.task.get(
             url="http://elite.nju.edu.cn/jiaowu/student/studentinfo/achievementinfo.do?method=searchTermList" + "&termCode=" + str(
                 year) + str(term))
         grades_table = Selector(text=response.text).xpath("//tr[@class='TABLE_TR_01']") + Selector(
@@ -96,7 +96,7 @@ class LoginSpider:
 
     def get_timetable(self):
         self.update_header("Referer", "http://elite.nju.edu.cn/jiaowu/student/teachinginfo/index.do")
-        response = self.session.get(
+        response = self.task.get(
             url="http://elite.nju.edu.cn/jiaowu/student/teachinginfo/courseList.do?method=currentTermCourse")
         course_table = Selector(text=response.text).xpath("//tr[@class='TABLE_TR_01']") + Selector(
             text=response.text).xpath("//tr[@class='TABLE_TR_02']")
@@ -129,7 +129,7 @@ class LoginSpider:
     def apply_for_exam_only(self,course_name=None,course_id=None):
         #申请免修不免靠
         self.update_header("Referer",'http://elite.nju.edu.cn/jiaowu/student/elective/index.do')
-        response=self.session.get(url="http://elite.nju.edu.cn/jiaowu/student/teachinginfo/courseList.do?method=exemptionBMKList")
+        response=self.task.get(url="http://elite.nju.edu.cn/jiaowu/student/teachinginfo/courseList.do?method=exemptionBMKList")
         selector=Selector(text=response.text)
         trs=selector.xpath("//tr[@align='left']")
         class_id=""
@@ -141,14 +141,14 @@ class LoginSpider:
             if len(selector.xpath("//div[@id='courseList']")[0].css("table tr[align='left']"))>=2:
                 print(code.APPLICATION_BEYOND_MAX_LIMITS.get_msg())
                 return
-            self.session.get(url="http://elite.nju.edu.cn/jiaowu/student/teachinginfo/courseList.do?method=exemptionBMKApply&classId=%s"%class_id)
+            self.task.get(url="http://elite.nju.edu.cn/jiaowu/student/teachinginfo/courseList.do?method=exemptionBMKApply&classId=%s"%class_id)
         else:
             print(code.COURSE_NOT_FOUND.get_msg())
 
     def cancel_exam_only_application(self,course_name=None,course_id=None):
         # 取消免修不免靠申请
         self.update_header("Referer", 'http://elite.nju.edu.cn/jiaowu/student/elective/index.do')
-        response = self.session.get(
+        response = self.task.get(
             url="http://elite.nju.edu.cn/jiaowu/student/teachinginfo/courseList.do?method=exemptionBMKList")
         selector = Selector(text=response.text)
         trs = selector.xpath("//tr[@align='left']")
@@ -168,10 +168,11 @@ class LoginSpider:
             if not flag:
                 print(code.COURSE_NOT_EXIST_IN_LIST.get_msg())
                 return
-            self.session.get(
+            self.task.get(
                 url="http://elite.nju.edu.cn/jiaowu/student/teachinginfo/courseList.do?method=exemptionBMKDelete&classId=%s" % class_id)
         else:
             print(code.COURSE_NOT_FOUND.get_msg())
+
 
 
 
