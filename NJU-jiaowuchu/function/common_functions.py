@@ -46,7 +46,7 @@ class LoginSpider:
             # "Cookie": self.cookies,
             "Connection": config_json["Connection"]
         }
-        self.task.cookies = cookiejar_from_dict(self.cookies)
+        self.task.cookies = self.cookies
 
     def terminate_task(self):
         self.task.close()
@@ -58,7 +58,7 @@ class LoginSpider:
         :param value:header属性值
         :return:null
         """
-        self.task.headers["key"] = value
+        self.task.headers[key] = value
 
     def crawl_news(self, start=0, end=100):
         # 爬取首页通知
