@@ -1,6 +1,4 @@
 import abc
-from data.code.status_code import StatusCode as Code
-
 
 class Utils:
     def get_util_type(self):
@@ -25,9 +23,6 @@ class Writer(Utils):
 
 
 class Logger(Utils):
-    @staticmethod
-    def log(status_code: Code):
-        print(status_code.get_msg())
-
-
-
+    @abc.abstractmethod
+    def log(self, info):
+        pass

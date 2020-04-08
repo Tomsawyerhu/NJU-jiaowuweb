@@ -1,6 +1,6 @@
 from abc import abstractmethod
 
-from core.function.common_functions import LoginSpider
+from core.model.login_model import LoginSpider
 
 
 class UploadTask:
@@ -9,7 +9,7 @@ class UploadTask:
     """
 
     @abstractmethod
-    def do_task(self, login_spider: LoginSpider):
+    def do_task(self, task_name):
         pass
 
 
@@ -30,7 +30,7 @@ class DownloadTask:
         self.writer = writer
 
     @abstractmethod
-    def do_task(self, login_spider: LoginSpider):
+    def do_task(self, task_name):
         pass
 
     def save(self, url=None):

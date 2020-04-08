@@ -12,15 +12,47 @@
     <SUITE FILE_PATH="coverage/Captcha$test.coverage" NAME="test Coverage Results" MODIFIED="1586222516426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Captcha$common_functions.coverage" NAME="common_functions Coverage Results" MODIFIED="1586183966840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
     <SUITE FILE_PATH="coverage/Captcha$1.coverage" NAME="1 Coverage Results" MODIFIED="1586226688011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NJU_jiaowuweb$logger.coverage" NAME="logger Coverage Results" MODIFIED="1586343456342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils" />
+    <SUITE FILE_PATH="coverage/NJU_jiaowuweb$entrance.coverage" NAME="entrance Coverage Results" MODIFIED="1586348364470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../NJU_jiaowuweb/main" />
     <SUITE FILE_PATH="coverage/Captcha$function_utils.coverage" NAME="function_utils Coverage Results" MODIFIED="1586085282028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/common_functions.py">
+        <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/model/login_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="130">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/interface/tools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/model/data_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/model/spider_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-160">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -29,72 +61,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/upload/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/download/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/__init__.py">
+        <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/test/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/interface/task.py">
+        <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/main/entrance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="228">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="e#13#91#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/interface/tools.py">
+        <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/data/constants/status_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            <state relative-caret-position="152">
+              <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/upload/upload_functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1195264791/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="5280" column="8" selection-start-line="5280" selection-start-column="8" selection-end-line="5280" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1195264791/sys.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2109" />
-          </provider>
+        <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/upload/upload_tasks.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -143,12 +149,35 @@
         <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/download/__init__.py" />
         <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/__init__.py" />
         <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/interface/__init__.py" />
-        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/interface/task.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/data/constants/log_msg.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/logger.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/data/config/task_config.json" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/spider/spider.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/model/data_model.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/upload/upload_functions.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/download/download_functions.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/common_functions.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/__init__.py" />
         <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/interface/tools.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/formatter.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/function_utils.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/parser.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/writer.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/data/config/login_config.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/others.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/data/config/project_config.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/login.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/interface/task.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/upload/upload_tasks.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/download/download_tasks.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/main/entrance.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/model/login_model.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/model/spider_model.py" />
+        <option value="$PROJECT_DIR$/../NJU_jiaowuweb/data/constants/status_code.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="825" />
@@ -175,12 +204,6 @@
               <item name="NJU_jiaowuweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="NJU_jiaowuweb" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NJU_jiaowuweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NJU_jiaowuweb" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="interface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -192,12 +215,29 @@
               <item name="NJU_jiaowuweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="NJU_jiaowuweb" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NJU_jiaowuweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NJU_jiaowuweb" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NJU_jiaowuweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NJU_jiaowuweb" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NJU_jiaowuweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="NJU_jiaowuweb" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NJU_jiaowuweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NJU_jiaowuweb" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,11 +254,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tomsawyerhu\PycharmProjects\NJU_jiaowuweb\core\model" />
       <recent name="C:\Users\Tomsawyerhu\PycharmProjects\NJU_jiaowuweb\core" />
       <recent name="C:\Users\Tomsawyerhu\PycharmProjects\NJU_jiaowuweb\function" />
       <recent name="C:\Users\Tomsawyerhu\PycharmProjects\NJU_jiaowuweb\function\core" />
       <recent name="C:\Users\Tomsawyerhu\PycharmProjects\NJU_jiaowuweb\data\output" />
-      <recent name="C:\Users\Tomsawyerhu\PycharmProjects\NJU_jiaowuweb\data\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -233,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1">
+  <component name="RunManager" selected="Python.entrance">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="NJU_jiaowuweb" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -346,7 +386,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="function_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="entrance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NJU_jiaowuweb" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -354,12 +394,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/function" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../NJU_jiaowuweb/main" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/function/function_utils.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../NJU_jiaowuweb/main/entrance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NJU_jiaowuweb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/logger.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -498,10 +560,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.entrance" />
+        <item itemvalue="Python.logger" />
         <item itemvalue="Python.1" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.common_functions" />
-        <item itemvalue="Python.function_utils" />
       </list>
     </recent_temporary>
   </component>
@@ -523,16 +586,15 @@
       <workItem from="1586188178600" duration="580000" />
       <workItem from="1586221234089" duration="5506000" />
       <workItem from="1586226790992" duration="3358000" />
-      <workItem from="1586332433473" duration="8015000" />
+      <workItem from="1586332433473" duration="15985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69673000" />
+    <option name="totallyTimeSpent" value="77643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1478" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2140845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -568,99 +630,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/data/output/raw_captcha.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/datetime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25137">
-          <caret line="1324" column="13" selection-start-line="1324" selection-start-column="13" selection-end-line="1324" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/xlwt/Worksheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20976">
-          <caret line="1110" column="61" selection-start-line="1110" selection-start-column="61" selection-end-line="1110" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/xlwt/Style.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="54" selection-start-line="16" selection-start-column="8" selection-end-line="17" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3211">
-          <caret line="172" selection-start-line="172" selection-end-line="172" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/__main__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/win32/lib/afxres.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/win32/lib/commctrl.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/win32/lib/dbi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/win32/lib/ntsecuritycon.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/win32/lib/mmsystem.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/win32/lib/netbios.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/win32/lib/rasutil.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/win32/lib/regutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4759" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/win32/lib/sspi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/win32/lib/win32evtlogutil.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/win32/lib/win32serviceutil.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/win32/lib/win32traceutil.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/win32/lib/win32verstamp.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/venv/Lib/site-packages/win32/lib/winioctlcon.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -779,33 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/function_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/data/code/status_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/common_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -830,20 +772,6 @@
     <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/interface/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/interface/task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1195264791/sys.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2109" />
@@ -856,13 +784,198 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/data/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/data/constants/log_msg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/function_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/formatter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/writer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/common_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/others.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/data/config/login_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/data/config/project_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/data/config/task_config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/interface/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/download/download_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/download/download_tasks.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/upload/upload_tasks.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/interface/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/interface/tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/model/data_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/model/login_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/model/spider_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/main/entrance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#13#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/upload/upload_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/data/constants/status_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>
