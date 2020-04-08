@@ -1,7 +1,7 @@
 import re
 import xlwt as xlwt
 from xlwt import Font
-from code.status_code import StatusCode as code
+from data.code.status_code import StatusCode as code
 
 
 class TLparser:
@@ -113,7 +113,3 @@ def save_timetable_as_excel(data, file_path):
 
 # def save_timetable_as_pdf(data,file_path):
 
-if __name__ == '__main__':
-    s = "周三 第5-6节 双周 仙Ⅱ-503\n周一 第3-4节 1-17周 仙Ⅱ-503\n周一 第9-10节 1-17周 基础实验楼丙区513\n"
-    d = TLparser.parse(s)
-    print(0)

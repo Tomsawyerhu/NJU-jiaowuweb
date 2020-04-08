@@ -1,8 +1,7 @@
 import pytesseract
 from PIL import Image
 import requests
-from function import common_functions
-
+from core.function import common_functions
 
 
 # 识别验证码
