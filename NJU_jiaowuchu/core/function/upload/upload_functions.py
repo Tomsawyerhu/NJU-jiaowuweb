@@ -5,7 +5,7 @@ from data.constants.status_code import StatusCode as Code
 from core.model.spider_model import LoginSpider
 
 
-def apply_for_exam_only(spider:LoginSpider, course_name=None, course_id=None):
+def apply_for_exam_only(spider: LoginSpider, course_name=None, course_id=None):
     # 申请免修不免靠
     spider.update_header("Referer", 'http://elite.nju.edu.cn/jiaowu/student/elective/index.do')
     response = spider.task.get(
@@ -28,7 +28,7 @@ def apply_for_exam_only(spider:LoginSpider, course_name=None, course_id=None):
         print(Code.COURSE_NOT_FOUND.get_msg())
 
 
-def cancel_exam_only_application(spider:LoginSpider, course_name=None, course_id=None):
+def cancel_exam_only_application(spider: LoginSpider, course_name=None, course_id=None):
     # 取消免修不免靠申请
     spider.update_header("Referer", 'http://elite.nju.edu.cn/jiaowu/student/elective/index.do')
     response = spider.task.get(
@@ -56,3 +56,19 @@ def cancel_exam_only_application(spider:LoginSpider, course_name=None, course_id
     else:
         print(Code.COURSE_NOT_FOUND.get_msg())
 
+
+def update_password(spider: LoginSpider, old_pwd, new_pwd):
+    #修改密码
+    spider.update_header("Referer",
+                         'http://elite.nju.edu.cn/jiaowu/student/basicinfo/ModifyPassword.do?method=editStudentPassword')
+    form = {
+        'OldPassword': old_pwd,
+        'NewPassword': new_pwd,
+        'NewPassword_d': new_pwd
+    }
+    response = spider.task.post(
+        url="http://elite.nju.edu.cn/jiaowu/student/basicinfo/ModifyPassword.do?method=editStudentPassword", data=form)
+    if len(re.findall("密码修改成功", response.text)) >= 2:
+        print(Code.PWD_UPDATE_SUCCESS.get_msg())
+    else:
+        print(Code.PWD_UPDATE_FAILURE.get_msg())

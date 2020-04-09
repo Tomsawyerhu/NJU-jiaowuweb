@@ -1,4 +1,3 @@
-from core.model.spider_model import LoginSpider
 from data.config.login_config import login_headers
 from core.function.utils.others import recognize_captcha
 import requests

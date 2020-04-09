@@ -1,5 +1,6 @@
 import abc
 
+
 class Utils:
     def get_util_type(self):
         if isinstance(self, Parser):
