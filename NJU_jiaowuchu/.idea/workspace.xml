@@ -2,21 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89d829b4-93ad-4540-ae0f-fe27f87a3b80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/constants/tasks_reflection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NJU_jiaowuchu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NJU_jiaowuchu.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/function/download/download_tasks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/function/upload/upload_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/function/upload/upload_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/function/upload/upload_tasks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/interface/task.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/interface/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/interface/tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/model/login_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/model/login_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/constants/status_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/constants/status_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/raw_captcha.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/raw_captcha.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/entrance.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/entrance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/function/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/function/download/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/function/download/download_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/function/upload/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/function/upload/upload_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/function/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/function/utils/formatter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/function/utils/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/function/utils/others.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/function/utils/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/function/utils/writer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/model/data_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/model/login_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/model/spider_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/model/task_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/function/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/function/download/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/config/login_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/config/project_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/config/task_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/constants/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/function/upload/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/constants/log_msg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/constants/status_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/constants/tasks_reflection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/constants/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/function/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output/raw_captcha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output/timetable.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/interface/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/entrance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/config/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,112 +50,76 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Captcha$test.coverage" NAME="test Coverage Results" MODIFIED="1586222516426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Captcha$common_functions.coverage" NAME="common_functions Coverage Results" MODIFIED="1586183966840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
+    <SUITE FILE_PATH="coverage/NJU_jiaowuchu$data_model.coverage" NAME="data_model Coverage Results" MODIFIED="1586520811298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/model" />
     <SUITE FILE_PATH="coverage/Captcha$1.coverage" NAME="1 Coverage Results" MODIFIED="1586226688011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NJU_jiaowuchu$entrance.coverage" NAME="entrance Coverage Results" MODIFIED="1586407092617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/NJU_jiaowuchu$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1586525827527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/function/utils" />
+    <SUITE FILE_PATH="coverage/NJU_jiaowuchu$entrance.coverage" NAME="entrance Coverage Results" MODIFIED="1586521654730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/NJU_jiaowuweb$logger.coverage" NAME="logger Coverage Results" MODIFIED="1586343456342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils" />
     <SUITE FILE_PATH="coverage/NJU_jiaowuchu$task.coverage" NAME="task Coverage Results" MODIFIED="1586399580660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/interface" />
     <SUITE FILE_PATH="coverage/NJU_jiaowuweb$entrance.coverage" NAME="entrance Coverage Results" MODIFIED="1586348364470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../NJU_jiaowuweb/main" />
     <SUITE FILE_PATH="coverage/Captcha$function_utils.coverage" NAME="function_utils Coverage Results" MODIFIED="1586085282028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/constants/tasks_reflection.py">
+        <entry file="file://$PROJECT_DIR$/src/core/function/download/download_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-              <folding>
-                <element signature="e#12#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/constants/log_msg.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/constants/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/constants/status_code.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/function/utils/logger.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="225">
+              <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/model/login_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#1#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/model/spider_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="82" lean-forward="true" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/model/task_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/function/upload/upload_functions.py">
+        <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/entrance.py">
+        <entry file="file://$PROJECT_DIR$/src/core/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/pip-selfcheck.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="74" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
-              <folding>
-                <element signature="e#13#57#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="38">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scrapy/selector/unified.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-22">
+              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/parsel/csstranslator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -157,14 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/function/special_functions.py" />
-        <option value="$PROJECT_DIR$/status_code/status_code.py" />
-        <option value="$PROJECT_DIR$/function/function_utils.py" />
-        <option value="$PROJECT_DIR$/code/status_code.py" />
-        <option value="$PROJECT_DIR$/login.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/function/login.py" />
-        <option value="$PROJECT_DIR$/function/common_functions.py" />
         <option value="$PROJECT_DIR$/../NJU_jiaowuweb/function/function_utils.py" />
         <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/__init__.py" />
         <option value="$PROJECT_DIR$/../NJU_jiaowuweb/core/function/upload/__init__.py" />
@@ -206,8 +185,16 @@
         <option value="$PROJECT_DIR$/data/constants/download_tasks_reflection.py" />
         <option value="$PROJECT_DIR$/core/model/task_model.py" />
         <option value="$PROJECT_DIR$/data/constants/status_code.py" />
-        <option value="$PROJECT_DIR$/main/entrance.py" />
         <option value="$PROJECT_DIR$/core/function/upload/upload_functions.py" />
+        <option value="$PROJECT_DIR$/core/function/utils/writer.py" />
+        <option value="$PROJECT_DIR$/core/function/utils/others.py" />
+        <option value="$PROJECT_DIR$/main/entrance.py" />
+        <option value="$PROJECT_DIR$/core/model/data_model.py" />
+        <option value="$PROJECT_DIR$/core/function/download/download_functions.py" />
+        <option value="$PROJECT_DIR$/core/__init__.py" />
+        <option value="$PROJECT_DIR$/data/__init__.py" />
+        <option value="$PROJECT_DIR$/runner.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
@@ -217,7 +204,9 @@
     <option name="width" value="825" />
     <option name="height" value="980" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -233,62 +222,7 @@
             <path>
               <item name="NJU_jiaowuchu" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="NJU_jiaowuchu" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="function" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="NJU_jiaowuchu" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="function" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="download" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="NJU_jiaowuchu" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="function" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="upload" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="NJU_jiaowuchu" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="function" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="utils" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="NJU_jiaowuchu" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="interface" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="NJU_jiaowuchu" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="NJU_jiaowuchu" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="NJU_jiaowuchu" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="constants" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="NJU_jiaowuchu" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dist" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -305,11 +239,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tomsawyerhu\Desktop\新建文件夹 (2)\NJU_jiaowuchu" />
+      <recent name="C:\Users\Tomsawyerhu\Desktop\新建文件夹 (2)\NJU_jiaowuchu\src" />
       <recent name="C:\Users\Tomsawyerhu\Desktop\新建文件夹 (2)\NJU_jiaowuchu\data\constants" />
       <recent name="C:\Users\Tomsawyerhu\Desktop\新建文件夹 (2)\NJU_jiaowuchu\core\model" />
       <recent name="C:\Users\Tomsawyerhu\PycharmProjects\NJU_jiaowuweb\core\model" />
-      <recent name="C:\Users\Tomsawyerhu\PycharmProjects\NJU_jiaowuweb\core" />
-      <recent name="C:\Users\Tomsawyerhu\PycharmProjects\NJU_jiaowuweb\function" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -324,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.entrance">
+  <component name="RunManager" selected="Python.__init__">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="NJU_jiaowuweb" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -393,6 +327,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NJU_jiaowuchu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/function/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/function/utils/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="NJU_jiaowuweb" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -407,6 +363,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NJU_jiaowuchu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/model/data_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -569,10 +547,14 @@
       <item itemvalue="Python.1" />
       <item itemvalue="Python.entrance" />
       <item itemvalue="Python.task" />
+      <item itemvalue="Python.data_model" />
+      <item itemvalue="Python.__init__" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__init__" />
         <item itemvalue="Python.entrance" />
+        <item itemvalue="Python.data_model" />
         <item itemvalue="Python.task" />
         <item itemvalue="Python.1" />
       </list>
@@ -599,17 +581,17 @@
       <workItem from="1586332433473" duration="15985000" />
       <workItem from="1586392886621" duration="83000" />
       <workItem from="1586393134182" duration="9999000" />
+      <workItem from="1586509557939" duration="15725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87725000" />
+    <option name="totallyTimeSpent" value="103450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1478" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2197183" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22253521" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -623,7 +605,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -639,7 +621,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/model/task_model.py</url>
+          <url>file://$PROJECT_DIR$/src/core/model/task_model.py</url>
           <line>27</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -652,35 +634,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/upload/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/download/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/__init__.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1195264791/sys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2109" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1195264791/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="5280" column="8" selection-start-line="5280" selection-start-column="8" selection-end-line="5280" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/data/log.txt" />
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/data/constants/log_msg.py" />
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/function_utils.py" />
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/parser.py" />
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/logger.py" />
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/formatter.py" />
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/writer.py" />
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/common_functions.py" />
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/utils/others.py" />
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/data/config/login_config.py" />
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/data/config/project_config.py" />
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/data/config/task_config.json" />
-    <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/interface/task.py" />
     <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/download/download_functions.py" />
     <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/download/download_tasks.py" />
     <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/upload/upload_tasks.py" />
@@ -693,104 +646,58 @@
     <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/main/entrance.py" />
     <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/core/function/upload/upload_functions.py" />
     <entry file="file://$PROJECT_DIR$/../NJU_jiaowuweb/data/constants/status_code.py" />
-    <entry file="file://$PROJECT_DIR$/core/function/utils/writer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/interface/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/core/model/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/interface/tools.py">
+    <entry file="file://$PROJECT_DIR$/src/core/interface/tools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/function/utils/parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/function/utils/others.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/model/data_model.py">
+    <entry file="file://$PROJECT_DIR$/src/core/function/utils/formatter.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/function/download/download_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-950">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/function/utils/formatter.py">
+    <entry file="file://$PROJECT_DIR$/data/constants/upload_tasks_reflection.py" />
+    <entry file="file://$PROJECT_DIR$/src/data/constants/log_msg.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/function/utils/logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/model/login_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#1#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/constants/upload_tasks_reflection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/model/spider_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="82" lean-forward="true" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/constants/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/model/task_model.py">
+    <entry file="file://$PROJECT_DIR$/src/data/constants/status_code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
+        <state relative-caret-position="190">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/function/utils/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/model/spider_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/model/task_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
           <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -798,10 +705,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/constants/log_msg.py">
+    <entry file="file://$PROJECT_DIR$/core/function/upload/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/constants/tasks_reflection.py">
+    <entry file="file://$PROJECT_DIR$/src/data/constants/tasks_reflection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
@@ -811,30 +718,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/constants/status_code.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/typing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="-3451">
+          <caret line="1242" selection-start-line="1242" selection-end-line="1242" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/entrance.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-116884998/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="74" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
-          <folding>
-            <element signature="e#13#57#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-943">
+          <caret line="2812" column="6" selection-start-line="2812" selection-start-column="6" selection-end-line="2812" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/function/upload/upload_functions.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        <state relative-caret-position="-2921">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/function/utils/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/model/login_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/function/utils/others.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/output/raw_captcha.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/function/utils/writer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="83" column="50" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="292" selection-start-line="292" selection-end-line="292" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/model/data_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/function/upload/upload_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="73" column="48" lean-forward="true" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/entrance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/output/reflection.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1909" selection-start-column="1909" selection-end-column="1909" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scrapy/http/response/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/parsel/selector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="266" column="40" selection-start-line="266" selection-start-column="40" selection-end-line="266" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/parsel/csstranslator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scrapy/selector/unified.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/function/download/download_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runner">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/pip-selfcheck.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/src/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowu_helper.egg-info/not-zip-safe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
