@@ -1,17 +1,17 @@
 from setuptools import setup, find_packages
 
 setup(name = "NJU_jiaowu_helper",
-    version = "1.0",
-    description = "教务小助手",
+    version = "0.2",
+    description = "nju helper",
     author = "Tomsawyerhu",
     author_email = "181250046@smail.nju.edu.cn",
-    url = "",
+    url = "https://github.com/Tomsawyerhu/NJU-jiaowuweb",
     packages = find_packages(),
     #'runner' is in the root.
-    scripts = ["runner"],
     entry_points={'console_scripts': [
-          'login = DrQueue.RedisRun.redis_run:main',
+          'chatwithconsole=jiaowu.console.runner:main'
     ]},
+
     zip_safe=False
 
 )
