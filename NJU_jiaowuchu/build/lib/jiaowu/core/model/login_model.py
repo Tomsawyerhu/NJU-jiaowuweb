@@ -1,5 +1,5 @@
-from src.core.function.utils.others import recognize_captcha
-from src.data.config.login_config import login_headers
+from jiaowu.core.function.utils.others import recognize_captcha
+from jiaowu.data.config.login_config import login_headers
 
 import requests
 
@@ -33,7 +33,7 @@ class LoginInitializer:
             response = requests.get(url="http://elite.nju.edu.cn/jiaowu/ValidateCode.jsp")
             cookies1 = response.cookies
             cookies1_dict = requests.utils.dict_from_cookiejar(cookies1)
-            captcha_save_path = "../data/output/raw_captcha.png"
+            captcha_save_path = "jiaowu/data/output/raw_captcha.png"
             with open(captcha_save_path, "wb") as f:
                 f.write(response.content)
             # 识别验证码

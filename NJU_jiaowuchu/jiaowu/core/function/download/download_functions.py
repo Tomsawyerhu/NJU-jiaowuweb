@@ -1,16 +1,18 @@
 import json
 import os
-
 from scrapy import Selector
 
-from jiaowu.core.function.utils.others import crawl_speciality_select
+from jiaowu.core.function.utils.others import crawl_speciality_select, get_values
 from jiaowu.core.model.data_model import Course
 from jiaowu.core.model.spider_model import LoginSpider
 
 
 # 下载信息功能
-def check_grades(spider: LoginSpider, year, term):
+def check_grades(spider: LoginSpider, args):
     # 查看成绩
+    values = get_values(args, ["year", "term"])
+    year, term = tuple(values)
+
     course_list = []
     spider.update_header("Referer", "http://elite.nju.edu.cn/jiaowu/student/studentinfo/index.do")
     response = spider.task.get(
@@ -40,7 +42,7 @@ def check_grades(spider: LoginSpider, year, term):
     return course_list
 
 
-def get_timetable(spider: LoginSpider):
+def get_timetable(spider: LoginSpider, args):
     # 下载课程表
     spider.update_header("Referer", "http://elite.nju.edu.cn/jiaowu/student/teachinginfo/index.do")
     response = spider.task.get(
@@ -74,13 +76,16 @@ def get_timetable(spider: LoginSpider):
     return course_list
 
 
-def crawl_news(spider: LoginSpider, start=0, end=100):
+def crawl_news(spider: LoginSpider, args):
     # 爬取首页通知
     return 0
 
 
-def check_course_info(spider: LoginSpider, year, term, grade, major):
-    #查询院系课程
+def check_course_info(spider: LoginSpider, args):
+    # 查询院系课程
+    values = get_values(args, ["year", "term", "grade", "major"])
+    year, term, grade, major = tuple(values)
+
     spider.update_header("Referer",
                          "http://elite.nju.edu.cn/jiaowu/student/teachinginfo/allCourseList.do?method=getTermAcademy")
     curPath = os.path.abspath(os.path.dirname(__file__))
@@ -91,26 +96,23 @@ def check_course_info(spider: LoginSpider, year, term, grade, major):
     reflection_json_path = rootPath + "\\data\\output\\reflection.json"
     if not os.path.exists(reflection_json_path):
         crawl_speciality_select(spider)
-    fp = open(reflection_json_path, 'r',encoding="utf-8")
+    fp = open(reflection_json_path, 'r', encoding="utf-8")
     major_index = json.load(fp)[major]
-    url="http://elite.nju.edu.cn/jiaowu/student/teachinginfo/allCourseList.do?method=getCourseList"+"&curTerm="+str(year)+str(term)+"&curSpeciality="+major_index+"&curGrade="+str(grade)
-    response=spider.task.get(url=url)
-    selector=Selector(text=response.text)
-    course_selectors=selector.xpath("//tr[@class='TABLE_TR_01']")+selector.xpath("//tr[@class='TABLE_TR_02']")
-    course_list=[]
+    url = "http://elite.nju.edu.cn/jiaowu/student/teachinginfo/allCourseList.do?method=getCourseList" + "&curTerm=" + str(
+        year) + str(term) + "&curSpeciality=" + major_index + "&curGrade=" + str(grade)
+    response = spider.task.get(url=url)
+    selector = Selector(text=response.text)
+    course_selectors = selector.xpath("//tr[@class='TABLE_TR_01']") + selector.xpath("//tr[@class='TABLE_TR_02']")
+    course_list = []
     for selector in course_selectors:
-        tds=selector.css("td")
-        course=Course()
+        tds = selector.css("td")
+        course = Course()
         course.id = tds[0].css("a>u::text")[0].get().strip()
-        course.name=tds[1].xpath("./text()").get().strip()
-        course.type=tds[2].xpath("./text()").get().strip()
-        course.credit=tds[4].xpath("./text()").get().strip()
-        course.teacher=tds[7].xpath("./text()").get().strip()
-        course.time_and_loc=tds[8].xpath("./text()").get().strip()
-        #print(course)
+        course.name = tds[1].xpath("./text()").get().strip()
+        course.type = tds[2].xpath("./text()").get().strip()
+        course.credit = tds[4].xpath("./text()").get().strip()
+        course.teacher = tds[7].xpath("./text()").get().strip()
+        course.time_and_loc = tds[8].xpath("./text()").get().strip()
+        # print(course)
         course_list.append(course)
     return course_list
-
-
-
-

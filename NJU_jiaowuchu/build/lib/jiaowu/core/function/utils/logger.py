@@ -1,6 +1,6 @@
 import time
 
-from jiaowu.core import Logger
+from jiaowu.core.interface.tools import Logger
 from jiaowu.data.constants.status_code import StatusCode as Code
 
 

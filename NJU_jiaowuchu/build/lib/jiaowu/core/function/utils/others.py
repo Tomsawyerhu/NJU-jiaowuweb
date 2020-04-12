@@ -4,7 +4,6 @@ import re
 import pytesseract as pytesseract
 from PIL import Image
 
-
 # 识别验证码
 from jiaowu.core.function.utils.writer import JSONWriter
 from jiaowu.core.model.spider_model import LoginSpider
@@ -30,27 +29,38 @@ def recognize_captcha(file_path):
     result = ''.join([x for x in list(result) if x != ' '])
     return result
 
-def crawl_speciality_select(spider:LoginSpider):
-    #爬取院系对应的编号
-    #**273%金融工程((
-    #A41%*外国语言文学类((
-    reflection_table={}
-    spider.update_header("Pragma","no-cache")
-    response=spider.task.get(url="http://elite.nju.edu.cn/jiaowu/student/teachinginfo/allCourseList.do?method=getTermAcademy")
-    pattern1=re.compile("\*\*(\d\d\d)%([\u4e00-\u9fa5a-zA-Z0-9()]+)\(\(")
-    pattern2=re.compile("(\S\S\S)%\*([\u4e00-\u9fa5a-zA-Z0-9()]+)\(\(")
-    reflections1=re.findall(pattern1,response.text)
-    reflections2=re.findall(pattern2,response.text)
+
+def get_values(args, keys):
+    # 从参数列表中获取参数
+    for key in keys:
+        if key in args.keys():
+            yield args[key]
+        else:
+            yield None
+
+
+def crawl_speciality_select(spider: LoginSpider):
+    # 爬取院系对应的编号
+    # **273%金融工程((
+    # A41%*外国语言文学类((
+    reflection_table = {}
+    spider.update_header("Pragma", "no-cache")
+    response = spider.task.get(
+        url="http://elite.nju.edu.cn/jiaowu/student/teachinginfo/allCourseList.do?method=getTermAcademy")
+    pattern1 = re.compile("\*\*(\d\d\d)%([\u4e00-\u9fa5a-zA-Z0-9()]+)\(\(")
+    pattern2 = re.compile("(\S\S\S)%\*([\u4e00-\u9fa5a-zA-Z0-9()]+)\(\(")
+    reflections1 = re.findall(pattern1, response.text)
+    reflections2 = re.findall(pattern2, response.text)
     for reflection in reflections1:
-        reflection_table[reflection[1]]=reflection[0]
+        reflection_table[reflection[1]] = reflection[0]
     for reflection in reflections2:
-        reflection_table[reflection[1]]=reflection[0]
-    json_writer=JSONWriter()
-    curPath=os.path.abspath(os.path.dirname(__file__))
-    paths_part=curPath.split('\\')
+        reflection_table[reflection[1]] = reflection[0]
+    json_writer = JSONWriter()
+    curPath = os.path.abspath(os.path.dirname(__file__))
+    paths_part = curPath.split('\\')
     for i in range(3):
         paths_part.pop()
-    rootPath='\\'.join(paths_part)
+    rootPath = '\\'.join(paths_part)
     print(rootPath)
-    json_writer.write(reflection_table,rootPath+"\\data\\output\\reflection.json")
-    print("一共有%d个专业"%(len(reflections1)+len(reflections2)))
+    json_writer.write(reflection_table, rootPath + "\\data\\output\\reflection.json")
+    print("一共有%d个专业" % (len(reflections1) + len(reflections2)))

@@ -1,5 +1,7 @@
-from src.core.function.utils.others import recognize_captcha
-from src.data.config.login_config import login_headers
+import os
+
+from jiaowu.core.function.utils.others import recognize_captcha
+from jiaowu.data.config.login_config import login_headers
 
 import requests
 
@@ -28,12 +30,14 @@ class LoginInitializer:
     def start_session(self):
         # 由于识别正确率低，暂时用循环的方法直到识别正确
         cookies = None
+        i=1
         while True:
             # 完整的获取验证码登录过程
             response = requests.get(url="http://elite.nju.edu.cn/jiaowu/ValidateCode.jsp")
             cookies1 = response.cookies
             cookies1_dict = requests.utils.dict_from_cookiejar(cookies1)
-            captcha_save_path = "../data/output/raw_captcha.png"
+            captcha_save_path=os.path.join(os.path.dirname(__file__) + '/../../data/output/raw_captcha.png')
+            print("正在第%d次尝试登录中"%i)
             with open(captcha_save_path, "wb") as f:
                 f.write(response.content)
             # 识别验证码
@@ -41,6 +45,7 @@ class LoginInitializer:
             # print(result)
             cookies2 = self._login(result, cookies1)
             cookies2_dict = requests.utils.dict_from_cookiejar(cookies2)
+            i+=1
 
             # 识别正确
             if len(cookies2_dict) > 0:

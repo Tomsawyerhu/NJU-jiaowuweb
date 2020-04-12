@@ -15,3 +15,4 @@ class ClassInfoFormatter:
             format_str = class_name + " " + ele[3] + "<" + ele[2] + ">"
             x.append((format_str, ele[0], ele[1]))
         return x
+
