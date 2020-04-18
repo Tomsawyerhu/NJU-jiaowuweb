@@ -1,6 +1,9 @@
 import json
+import os
 
 import requests
+
+from jiaowu.data.config import task_config
 
 
 class LoginSpider:
@@ -8,19 +11,21 @@ class LoginSpider:
         self.cookies = cookies
         self.task = None
 
+    def set_cookie(self, cookie):
+        self.cookies = cookie
+
     def start_task(self):
-        config_file = open("../data/config/task_config.json", 'r')
-        config_json = json.load(config_file)
+        header_template = task_config.headers
         self.task = requests.session()
         self.task.headers = {
-            "Accept": config_json["Accept"],
-            "Accept-Language": config_json["Accept-Language"],
-            "Upgrade-Insecure-Requests": config_json["Upgrade-Insecure-Requests"],
-            "User-Agent": config_json["User-Agent"],
-            "Accept-Encoding": config_json["Accept-Encoding"],
-            "Host": config_json["Host"],
+            "Accept": header_template["Accept"],
+            "Accept-Language": header_template["Accept-Language"],
+            "Upgrade-Insecure-Requests": header_template["Upgrade-Insecure-Requests"],
+            "User-Agent": header_template["User-Agent"],
+            "Accept-Encoding": header_template["Accept-Encoding"],
+            "Host": header_template["Host"],
             # "Cookie": self.cookies,
-            "Connection": config_json["Connection"]
+            "Connection": header_template["Connection"]
         }
         self.task.cookies = self.cookies
 
