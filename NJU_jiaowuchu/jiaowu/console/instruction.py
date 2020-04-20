@@ -9,24 +9,28 @@ from jiaowu.data.constants.tasks_reflection import TASK_LIST, PARAM_LIST
 
 
 class Instruction:
-    header = None
-    function_abbr = None
-    ins_str = None
-    params = {}
 
     def __init__(self, ins_str):
         self.ins_str = ins_str
+        self.header = None
+        self.function_abbr = None
+        self.params = {}
+
         self.__analyze_header()
         self.__analyze_param()
 
     def __analyze_header(self):
-        s = self.ins_str.strip()
+        if self.ins_str is None:
+            return
+        s = self.ins_str
         if not re.search(' ', s):
             self.header = s
         else:
             self.header = s.split()[0]
 
     def __analyze_param(self):
+        if self.ins_str is None:
+            return
         parts = self.ins_str.strip().split()
         for i in range(len(parts)):
             result = re.match("-([a-z]+)", parts[i])
@@ -121,6 +125,7 @@ INSTRUCTION_PATTERNS = {
     "q param{}": 'EXIT',
     "checkgrades param{y:N;t:N}": 'CHECK_GRADES',
     "checkcurriculum param{y:N;t:N;g:N;m:N}": 'CHECK_CURRICULUM',
+    "checkallcurriculum param{y:N;t:N;g:N}": 'CHECK_ALL_CURRICULUM',
     "checktimetable param{}": 'CHECK_TIMETABLE',
     "checknews param{}": 'CHECK_NEWS',
     "applyforexamonly param{cn/ci:N}": 'APPLY_FOR_EXAM_ONLY',

@@ -3,7 +3,7 @@ from twisted.trial import unittest
 from jiaowu.console.instruction import Instruction
 
 
-class ConsoleTest(unittest.TestCase):
+class InstructionTest(unittest.TestCase):
     def test_instruction_validity1(self):
         ins=Instruction("applyforexamonly -cn 12345")
         self.assertEqual( ins.is_valid(),True)

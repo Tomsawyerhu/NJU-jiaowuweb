@@ -2,7 +2,10 @@ from jiaowu.core.function.utils.parser import TLparser
 
 
 class ClassInfoFormatter:
-    def __init__(self, class_info):
+    def __init__(self, class_info=None):
+        self.class_info = class_info
+
+    def set_class_info(self, class_info):
         self.class_info = class_info
 
     def format(self):
@@ -15,4 +18,3 @@ class ClassInfoFormatter:
             format_str = class_name + " " + ele[3] + "<" + ele[2] + ">"
             x.append((format_str, ele[0], ele[1]))
         return x
-

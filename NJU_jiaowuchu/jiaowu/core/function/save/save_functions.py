@@ -1,6 +1,5 @@
-from jiaowu.core.function.utils.formatter import ClassInfoFormatter
 from jiaowu.core.function.utils.others import get_values
-from jiaowu.core.function.utils.writer import TBExcelWriter
+from jiaowu.core.function.utils.writer import TBExcelWriter, SRExcelWriter, SCExcelWriter
 from jiaowu.core.model.spider_model import LoginSpider
 
 
@@ -11,8 +10,13 @@ def save_as_excel(spider: LoginSpider, args):
         writer = TBExcelWriter()
         writer.write(data, file_path)
     elif data_type == '2':
-        # todo
-        pass
+        # 成绩单
+        writer = SRExcelWriter()
+        writer.write(data, file_path)
+    elif data_type == '3':
+        # 全校课程
+        writer = SCExcelWriter()
+        writer.write(data, file_path)
     else:
         pass
 

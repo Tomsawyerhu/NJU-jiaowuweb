@@ -10,7 +10,7 @@ from jiaowu.data.constants.status_code import StatusCode as Code
 
 class TBExcelWriter(Writer):
     """
-    write timetable as excel
+       write timetable as excel
     """
 
     def write(self, data, file_path):
@@ -72,13 +72,77 @@ class TBExcelWriter(Writer):
 
 class TBPdfWriter(Writer):
     """
-     write timetable as pdf
+        write timetable as pdf
     """
+
     def write(self, content, url):
         pass
 
+
+class SRExcelWriter(Writer):
+    """
+    write school report as excel
+    """
+
+    def write(self, content, url):
+        workbook = xlwt.Workbook(encoding='utf-8')
+        sheet = workbook.add_sheet("成绩单")
+        sheet.write(0, 0, "编号")
+        sheet.write(0, 1, "名称")
+        sheet.write(0, 2, "类型")
+        sheet.write(0, 3, "学分")
+        sheet.write(0, 4, "总评")
+        for i in range(0, len(content)):
+            sheet.write(i + 1, 0, content[i].id)
+            sheet.write(i + 1, 1, content[i].name)
+            sheet.write(i + 1, 2, content[i].type)
+            sheet.write(i + 1, 3, content[i].credit)
+            sheet.write(i + 1, 4, content[i].mark)
+
+        workbook.save(url)
+
+
+class SRPdfWriter(Writer):
+    """
+        write school report as pdf
+    """
+
+    def write(self, content, url):
+        pass
+
+
+class SCExcelWriter(Writer):
+    """
+       write school curriculum as excel
+    """
+
+    def write(self, content, url):
+        workbook = xlwt.Workbook(encoding='utf-8')
+        sheet = workbook.add_sheet("全校课程信息筛选结果")
+        sheet.write(0, 0, "编号")
+        sheet.write(0, 1, "名称")
+        sheet.write(0, 2, "类型")
+        sheet.write(0, 3, "院系")
+        sheet.write(0, 4, "学分")
+        sheet.write(0, 5, "学时")
+        sheet.write(0, 6, "校区")
+        sheet.write(0, 7, "教师")
+        sheet.write(0, 8, "时间/地点")
+        for i in range(0, len(content)):
+            sheet.write(i + 1, 0, content[i].id)
+            sheet.write(i + 1, 1, content[i].name)
+            sheet.write(i + 1, 2, content[i].type)
+            sheet.write(i + 1, 3, content[i].host)
+            sheet.write(i + 1, 4, content[i].credit)
+            sheet.write(i + 1, 5, content[i].hours)
+            sheet.write(i + 1, 6, content[i].district)
+            sheet.write(i + 1, 7, content[i].teacher)
+            sheet.write(i + 1, 8, content[i].time_and_loc)
+        workbook.save(url)
+
+
 class JSONWriter(Writer):
     def write(self, content, url):
-        assert type(content)==dict
-        with open(url,'w',encoding='utf-8') as f:
-            json.dump(content,f,ensure_ascii=False)
+        assert type(content) == dict
+        with open(url, 'w', encoding='utf-8') as f:
+            json.dump(content, f, ensure_ascii=False)
