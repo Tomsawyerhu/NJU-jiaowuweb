@@ -139,7 +139,7 @@ def check_all_course_info(spider: LoginSpider, args):
     for i in range(3):
         paths_part.pop()
     rootPath = '\\'.join(paths_part)
-    reflection_json_path = rootPath + "\\data\\output\\reflection.json"
+    reflection_json_path = rootPath + "\\data\\output\\major_reflection.json"
     if not os.path.exists(reflection_json_path):
         crawl_speciality_select(spider)
     fp = open(reflection_json_path, 'r', encoding="utf-8")

@@ -7,12 +7,9 @@ from jiaowu.data.constants.status_code import StatusCode as Code
 from jiaowu.core.model.spider_model import LoginSpider
 
 
-
-
-
 def apply_for_exam_only(spider: LoginSpider, args):
     # 申请免修不免靠
-    values=get_values(args,["course_name","course_id"])
+    values = get_values(args, ["course_name", "course_id"])
     course_name, course_id = tuple(values)
     spider.update_header("Referer", 'http://elite.nju.edu.cn/jiaowu/student/elective/index.do')
     response = spider.task.get(
@@ -35,7 +32,7 @@ def apply_for_exam_only(spider: LoginSpider, args):
         print(Code.COURSE_NOT_FOUND.get_msg())
 
 
-def cancel_exam_only_application(spider: LoginSpider,args):
+def cancel_exam_only_application(spider: LoginSpider, args):
     # 取消免修不免靠申请
     values = get_values(args, ["course_name", "course_id"])
     course_name, course_id = tuple(values)
@@ -70,7 +67,7 @@ def cancel_exam_only_application(spider: LoginSpider,args):
 def update_password(spider: LoginSpider, args):
     # 修改密码
     values = get_values(args, ["old_pwd", "new_pwd"])
-    old_pwd,new_pwd = tuple(values)
+    old_pwd, new_pwd = tuple(values)
 
     spider.update_header("Referer",
                          'http://elite.nju.edu.cn/jiaowu/student/basicinfo/ModifyPassword.do?method=editStudentPassword')
@@ -85,3 +82,9 @@ def update_password(spider: LoginSpider, args):
         print(Code.PWD_UPDATE_SUCCESS.get_msg())
     else:
         print(Code.PWD_UPDATE_FAILURE.get_msg())
+
+
+def renew_course(spider: LoginSpider, args):
+    # 课程补选
+    values = get_values(args, ["course_type,course_name"])
+    course_type,course_name = tuple(values)

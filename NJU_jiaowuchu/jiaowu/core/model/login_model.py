@@ -1,6 +1,8 @@
 import os
 import re
 
+from scrapy import Selector
+
 from jiaowu.core.function.utils.others import recognize_captcha
 from jiaowu.data.config.login_config import login_headers
 
@@ -19,7 +21,7 @@ class LoginInitializer:
         self.passwd = pwd
 
     # 登录
-    def _login(self, captcha, cookie):
+    def login(self, captcha, cookie):
         target_url = "http://elite.nju.edu.cn/jiaowu/login.do"
         post_data = {'userName': self.username, 'password': self.passwd, 'returnUrl': 'null', 'ValidateCode': captcha}
         headers = login_headers
@@ -32,7 +34,15 @@ class LoginInitializer:
             return -2
         response_cookies = response.cookies
         # print(cookies)
+        greetings = self.say_hello(response)
+        if greetings is not None:
+            print(greetings)
         return response_cookies
+
+    def say_hello(self, response):
+        selector = Selector(text=response.text)
+        user_info = selector.xpath("//div[@id='UserInfo']/text()").get()
+        return user_info
 
     def start_session(self):
         # 由于识别正确率低，暂时用循环的方法直到识别正确
@@ -50,7 +60,7 @@ class LoginInitializer:
             # 识别验证码
             result = recognize_captcha(captcha_save_path)
             # print(result)
-            cookies2 = self._login(result, cookies1)
+            cookies2 = self.login(result, cookies1)
 
             # 密码错误
             if cookies2 == -1:

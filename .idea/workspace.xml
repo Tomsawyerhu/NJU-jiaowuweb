@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31dd7e9c-1e21-4b36-9f6f-0bdec7b8dbe3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NJU_jiaowuchu/tests/test_console.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/console/instruction.py" beforeDir="false" afterPath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/console/instruction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/download/download_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/download/download_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/save/save_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/save/save_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/formatter.py" beforeDir="false" afterPath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/formatter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/writer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/data_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/data_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/constants/tasks_reflection.py" beforeDir="false" afterPath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/constants/tasks_reflection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/upload/upload_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/upload/upload_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/others.py" beforeDir="false" afterPath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/others.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/login_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/login_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/output/raw_captcha.png" beforeDir="false" afterPath="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/output/raw_captcha.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NJU_jiaowuchu/tests/testconsole.py" beforeDir="false" afterPath="$PROJECT_DIR$/NJU_jiaowuchu/tests/test_instruction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NJU_jiaowuchu/tests/test_console.py" beforeDir="false" afterPath="$PROJECT_DIR$/NJU_jiaowuchu/tests/test_utils.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,48 +20,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/nju$Unittests_for_testconsole_ConsoleTest_test_instruction_validity13.coverage" NAME="Unittests for testconsole.ConsoleTest.test_instruction_validity13 Coverage Results" MODIFIED="1587170275439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
     <SUITE FILE_PATH="coverage/nju$task_model.coverage" NAME="task_model Coverage Results" MODIFIED="1587172806014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model" />
-    <SUITE FILE_PATH="coverage/nju$runner__1_.coverage" NAME="runner (1) Coverage Results" MODIFIED="1587395489758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/console" />
+    <SUITE FILE_PATH="coverage/nju$runner__1_.coverage" NAME="runner (1) Coverage Results" MODIFIED="1587431223958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/console" />
     <SUITE FILE_PATH="coverage/nju$Unittests_for_testconsole_ConsoleTest_test_instruction_validity7.coverage" NAME="Unittests for testconsole.ConsoleTest.test_instruction_validity7 Coverage Results" MODIFIED="1587169435290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
     <SUITE FILE_PATH="coverage/nju$Unittests_for_testconsole_ConsoleTest_test_instruction_validity12.coverage" NAME="Unittests for testconsole.ConsoleTest.test_instruction_validity12 Coverage Results" MODIFIED="1587170134255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
-    <SUITE FILE_PATH="coverage/nju$Unittests_for_testconsole_ConsoleTest_test_instruction_validity5.coverage" NAME="Unittests for testconsole.ConsoleTest.test_instruction_validity5 Coverage Results" MODIFIED="1587177824190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
-    <SUITE FILE_PATH="coverage/nju$Unittests_for_testconsole_ConsoleTest_test_instruction_validity10.coverage" NAME="Unittests for testconsole.ConsoleTest.test_instruction_validity10 Coverage Results" MODIFIED="1587170044472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
+    <SUITE FILE_PATH="coverage/nju$Unittests_for_test_utils_ConsoleTest_test_renew_open.coverage" NAME="Unittests for test_utils.ConsoleTest.test_renew_open Coverage Results" MODIFIED="1587439815737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
     <SUITE FILE_PATH="coverage/nju$Unittests_for_testconsole_ConsoleTest_test_instruction_validity9.coverage" NAME="Unittests for testconsole.ConsoleTest.test_instruction_validity9 Coverage Results" MODIFIED="1587169936530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
-    <SUITE FILE_PATH="coverage/nju$runner.coverage" NAME="runner Coverage Results" MODIFIED="1587177607614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/build/lib/jiaowu/console" />
-    <SUITE FILE_PATH="coverage/nju$Unittests_for_testconsole_ConsoleTest_test_instruction_validity8.coverage" NAME="Unittests for testconsole.ConsoleTest.test_instruction_validity8 Coverage Results" MODIFIED="1587169884021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
     <SUITE FILE_PATH="coverage/nju$Unittests_for_testconsole_ConsoleTest_test_instruction_validity11.coverage" NAME="Unittests for testconsole.ConsoleTest.test_instruction_validity11 Coverage Results" MODIFIED="1587170104855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
+    <SUITE FILE_PATH="coverage/nju$Unittests_for_testconsole_ConsoleTest_test_instruction_validity13.coverage" NAME="Unittests for testconsole.ConsoleTest.test_instruction_validity13 Coverage Results" MODIFIED="1587170275439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
+    <SUITE FILE_PATH="coverage/nju$Unittests_for_testconsole_ConsoleTest_test_instruction_validity5.coverage" NAME="Unittests for testconsole.ConsoleTest.test_instruction_validity5 Coverage Results" MODIFIED="1587177824190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
+    <SUITE FILE_PATH="coverage/nju$Unittests_for_test_utils_ConsoleTest_test_renew_discuss.coverage" NAME="Unittests for test_utils.ConsoleTest.test_renew_discuss Coverage Results" MODIFIED="1587439842962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
+    <SUITE FILE_PATH="coverage/nju$Unittests_for_testconsole_ConsoleTest_test_instruction_validity10.coverage" NAME="Unittests for testconsole.ConsoleTest.test_instruction_validity10 Coverage Results" MODIFIED="1587170044472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
+    <SUITE FILE_PATH="coverage/nju$runner.coverage" NAME="runner Coverage Results" MODIFIED="1587177607614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/build/lib/jiaowu/console" />
+    <SUITE FILE_PATH="coverage/nju$Unittests_for_test_utils_ConsoleTest_test_renew_read.coverage" NAME="Unittests for test_utils.ConsoleTest.test_renew_read Coverage Results" MODIFIED="1587438127095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
+    <SUITE FILE_PATH="coverage/nju$Unittests_for_testconsole_ConsoleTest_test_instruction_validity8.coverage" NAME="Unittests for testconsole.ConsoleTest.test_instruction_validity8 Coverage Results" MODIFIED="1587169884021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/download/download_functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="153" column="55" lean-forward="true" selection-start-line="153" selection-start-column="55" selection-end-line="153" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/logger.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/others.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="49" column="56" lean-forward="true" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+            <state relative-caret-position="266">
+              <caret line="92" column="9" lean-forward="true" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -75,70 +50,78 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://F:/pycharm/python-sdk/path/install/Lib/site-packages/parsel/selector.py">
+        <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/tests/test_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="291">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#0#90#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/output/reflection.json">
+        <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/output/renew_discuss_xainlin.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/output/renew_read_all.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/output/renew_open_gulou.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/output/renew_open_xainlin.json">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/constants/tasks_reflection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="-70">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/save/save_functions.py">
+        <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/task_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="-469">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
-                <element signature="e#1#57#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/writer.py">
+        <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/spider_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
+            <state relative-caret-position="-336">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <element signature="e#351#2564#0" />
-                <element signature="e#2598#2685#0" />
-                <element signature="e#3414#3509#0" />
-                <element signature="e#3449#3453#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/console/instruction.py">
+        <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/login_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="127" column="56" selection-start-line="127" selection-start-column="56" selection-end-line="127" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/data_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            <state relative-caret-position="-507">
+              <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,7 +148,6 @@
         <option value="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/spider_model.py" />
         <option value="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/statuschange/switchaccount.py" />
         <option value="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/task_model.py" />
-        <option value="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/console/runner.py" />
         <option value="$PROJECT_DIR$/NJU_jiaowuchu/tests/test_instruction.py" />
         <option value="$PROJECT_DIR$/NJU_jiaowuchu/tests/test_console.py" />
         <option value="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/formatter.py" />
@@ -174,7 +156,12 @@
         <option value="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/save/save_functions.py" />
         <option value="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/console/instruction.py" />
         <option value="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/constants/tasks_reflection.py" />
+        <option value="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/console/runner.py" />
+        <option value="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/login_model.py" />
+        <option value="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/upload/upload_functions.py" />
         <option value="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/download/download_functions.py" />
+        <option value="$PROJECT_DIR$/NJU_jiaowuchu/tests/test_utils.py" />
+        <option value="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/others.py" />
       </list>
     </option>
   </component>
@@ -193,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,6 +246,24 @@
               <item name="jiaowu" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="function" type="462c0819:PsiDirectoryNode" />
+              <item name="statuschange" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nju" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nju" type="462c0819:PsiDirectoryNode" />
+              <item name="NJU_jiaowuchu" type="462c0819:PsiDirectoryNode" />
+              <item name="jiaowu" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nju" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nju" type="462c0819:PsiDirectoryNode" />
+              <item name="NJU_jiaowuchu" type="462c0819:PsiDirectoryNode" />
+              <item name="jiaowu" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -301,7 +307,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -326,7 +331,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.runner (1)">
+  <component name="RunManager" selected="Python tests.Unittests for test_utils.ConsoleTest.test_renew_discuss">
     <configuration name="runner (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="nju" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -349,51 +354,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="runner" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="nju" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NJU_jiaowuchu/build/lib/jiaowu/console" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NJU_jiaowuchu/build/lib/jiaowu/console/runner.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="nju" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/task_model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for tests.test_instruction.ConsoleTest.test_instruction_validity13" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_utils.ConsoleTest.test_renew_discuss" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="nju" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -404,7 +365,37 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_instruction.ConsoleTest.test_instruction_validity13&quot;" />
+      <option name="_new_target" value="&quot;test_utils.ConsoleTest.test_renew_discuss&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_utils.ConsoleTest.test_renew_open" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="nju" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_utils.ConsoleTest.test_renew_open&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_utils.ConsoleTest.test_renew_read" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="nju" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NJU_jiaowuchu/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_utils.ConsoleTest.test_renew_read&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -425,11 +416,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_utils.ConsoleTest.test_renew_discuss" />
+        <item itemvalue="Python tests.Unittests for test_utils.ConsoleTest.test_renew_open" />
+        <item itemvalue="Python tests.Unittests for test_utils.ConsoleTest.test_renew_read" />
         <item itemvalue="Python.runner (1)" />
         <item itemvalue="Python tests.Unittests for tests.test_instruction.ConsoleTest.test_instruction_validity5" />
-        <item itemvalue="Python.runner" />
-        <item itemvalue="Python.task_model" />
-        <item itemvalue="Python tests.Unittests for tests.test_instruction.ConsoleTest.test_instruction_validity13" />
       </list>
     </recent_temporary>
   </component>
@@ -450,50 +441,50 @@
       <workItem from="1587168518237" duration="11577000" />
       <workItem from="1587381833562" duration="519000" />
       <workItem from="1587386420176" duration="9100000" />
+      <workItem from="1587429744146" duration="10652000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_testconsole_ConsoleTest_test_instruction_validity7 - 2020.04.18 at 08h 23m 56s.xml">
-      <configuration name="Unittests for testconsole.ConsoleTest.test_instruction_validity7" configurationId="tests" />
+    <history-entry file="Unittests_for_test_utils_ConsoleTest_test_renew_open - 2020.04.21 at 11h 19m 32s.xml">
+      <configuration name="Unittests for test_utils.ConsoleTest.test_renew_open" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testconsole_ConsoleTest_test_instruction_validity8 - 2020.04.18 at 08h 27m 03s.xml">
-      <configuration name="Unittests for testconsole.ConsoleTest.test_instruction_validity8" configurationId="tests" />
+    <history-entry file="Unittests_for_test_utils_ConsoleTest_test_renew_open - 2020.04.21 at 11h 20m 12s.xml">
+      <configuration name="Unittests for test_utils.ConsoleTest.test_renew_open" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testconsole_ConsoleTest_test_instruction_validity8 - 2020.04.18 at 08h 31m 24s.xml">
-      <configuration name="Unittests for testconsole.ConsoleTest.test_instruction_validity8" configurationId="tests" />
+    <history-entry file="Unittests_for_test_utils_ConsoleTest_test_renew_open - 2020.04.21 at 11h 20m 42s.xml">
+      <configuration name="Unittests for test_utils.ConsoleTest.test_renew_open" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testconsole_ConsoleTest_test_instruction_validity9 - 2020.04.18 at 08h 32m 17s.xml">
-      <configuration name="Unittests for testconsole.ConsoleTest.test_instruction_validity9" configurationId="tests" />
+    <history-entry file="Unittests_for_test_utils_ConsoleTest_test_renew_open - 2020.04.21 at 11h 25m 55s.xml">
+      <configuration name="Unittests for test_utils.ConsoleTest.test_renew_open" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testconsole_ConsoleTest_test_instruction_validity10 - 2020.04.18 at 08h 33m 35s.xml">
-      <configuration name="Unittests for testconsole.ConsoleTest.test_instruction_validity10" configurationId="tests" />
+    <history-entry file="Unittests_for_test_utils_ConsoleTest_test_renew_open - 2020.04.21 at 11h 26m 18s.xml">
+      <configuration name="Unittests for test_utils.ConsoleTest.test_renew_open" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testconsole_ConsoleTest_test_instruction_validity11 - 2020.04.18 at 08h 35m 05s.xml">
-      <configuration name="Unittests for testconsole.ConsoleTest.test_instruction_validity11" configurationId="tests" />
+    <history-entry file="Unittests_for_test_utils_ConsoleTest_test_renew_open - 2020.04.21 at 11h 26m 52s.xml">
+      <configuration name="Unittests for test_utils.ConsoleTest.test_renew_open" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testconsole_ConsoleTest_test_instruction_validity12 - 2020.04.18 at 08h 35m 35s.xml">
-      <configuration name="Unittests for testconsole.ConsoleTest.test_instruction_validity12" configurationId="tests" />
+    <history-entry file="Unittests_for_test_utils_ConsoleTest_test_renew_open - 2020.04.21 at 11h 29m 41s.xml">
+      <configuration name="Unittests for test_utils.ConsoleTest.test_renew_open" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testconsole_ConsoleTest_test_instruction_validity13 - 2020.04.18 at 08h 37m 56s.xml">
-      <configuration name="Unittests for testconsole.ConsoleTest.test_instruction_validity13" configurationId="tests" />
+    <history-entry file="Unittests_for_test_utils_ConsoleTest_test_renew_open - 2020.04.21 at 11h 30m 00s.xml">
+      <configuration name="Unittests for test_utils.ConsoleTest.test_renew_open" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testconsole_ConsoleTest_test_instruction_validity10 - 2020.04.18 at 08h 39m 01s.xml">
-      <configuration name="Unittests for testconsole.ConsoleTest.test_instruction_validity10" configurationId="tests" />
+    <history-entry file="Unittests_for_test_utils_ConsoleTest_test_renew_open - 2020.04.21 at 11h 30m 17s.xml">
+      <configuration name="Unittests for test_utils.ConsoleTest.test_renew_open" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testconsole_ConsoleTest_test_instruction_validity5 - 2020.04.18 at 10h 43m 44s.xml">
-      <configuration name="Unittests for testconsole.ConsoleTest.test_instruction_validity5" configurationId="tests" />
+    <history-entry file="Unittests_for_test_utils_ConsoleTest_test_renew_discuss - 2020.04.21 at 11h 30m 48s.xml">
+      <configuration name="Unittests for test_utils.ConsoleTest.test_renew_discuss" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27190000" />
+    <option name="totallyTimeSpent" value="37842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22386059" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.22654155" />
+      <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.22654155" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4966488" weight="0.3286119" />
@@ -568,28 +559,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/login_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,15 +592,6 @@
     <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/upload/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/upload/upload_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/config/login_config.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -644,26 +608,6 @@
     <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/build/lib/jiaowu/data/config/task_config.py" />
     <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/build/lib/jiaowu/console/instruction.py" />
     <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/build/lib/jiaowu/console/runner.py" />
-    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/spider_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/statuschange/switchaccount.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/statuschange/exit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -705,16 +649,6 @@
     <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/console/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/task_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/pycharm/python-sdk/path/install/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -729,10 +663,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://F:/pycharm/python-sdk/path/install/Lib/site-packages/parsel/selector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/output/reflection.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/console/instruction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2337">
+          <caret line="127" column="56" selection-start-line="127" selection-start-column="56" selection-end-line="127" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/data_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/console/runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="247">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="25" selection-end-column="23" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
@@ -741,90 +699,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/tests/test_instruction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="41" />
+        <state relative-caret-position="209">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/tests/test_console.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/formatter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/writer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#351#2564#0" />
-            <element signature="e#2598#2685#0" />
-            <element signature="e#3414#3509#0" />
-            <element signature="e#3449#3453#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/console/instruction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="127" column="56" selection-start-line="127" selection-start-column="56" selection-end-line="127" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/data_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/constants/tasks_reflection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/output/reflection.json">
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/output/renew_discuss_gulou.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://F:/pycharm/python-sdk/path/install/Lib/site-packages/parsel/selector.py">
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/download/download_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="-51">
+          <caret line="140" column="36" lean-forward="true" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/save/save_functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/statuschange/switchaccount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
-            <element signature="e#1#57#0" expanded="true" />
+            <element signature="e#0#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/download/download_functions.py">
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/upload/upload_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="153" column="55" lean-forward="true" selection-start-line="153" selection-start-column="55" selection-end-line="153" selection-end-column="55" />
+        <state relative-caret-position="310">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/formatter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -837,10 +763,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/writer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="6" selection-end-line="143" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/constants/tasks_reflection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/task_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-469">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/spider_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/model/login_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-507">
+          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/output/renew_open_xainlin.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/output/renew_open_gulou.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/output/renew_read_all.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/data/output/renew_discuss_xainlin.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/tests/test_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NJU_jiaowuchu/jiaowu/core/function/utils/others.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="49" column="56" lean-forward="true" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+        <state relative-caret-position="266">
+          <caret line="92" column="9" lean-forward="true" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
